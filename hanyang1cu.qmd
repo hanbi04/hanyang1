@@ -42,3 +42,7 @@ ggplot(penguins, aes(x = flipper_length_mm, y = bill_length_mm)) +
   ) + theme_minimal(
   )
 ```
+
+회귀식은 일반적으로 $y=ax+b$이며 다중회귀식은 다음과 같다.
+
+$$ y = a1x1 + a2x2 + \dots + b$$
